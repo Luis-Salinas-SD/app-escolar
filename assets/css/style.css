@@ -1,0 +1,10 @@
+.simply-section {
+    background-color: rgba(1, 28, 50, .60);
+    backdrop-filter: blur(5px);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    text-align: center;
+}
