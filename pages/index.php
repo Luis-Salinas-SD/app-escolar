@@ -36,8 +36,9 @@ include_once('../templates/header.php');
             </div>
             <div class="tab-content tab-space">
               <div class="tab-pane active" id="monthly" role="tabpanel" aria-labelledby="#tabs-iconpricing-tab-1">
-              
-              <div class="row">
+
+                <div class="row">
+                  <!-- Card Web -->
                   <div class="col-lg-4 mb-lg-0 mb-4">
                     <div class="card shadow-lg">
                       <span class="badge rounded-pill bg-light text-dark w-30 mt-n2 mx-auto">Sitio Web</span>
@@ -46,9 +47,12 @@ include_once('../templates/header.php');
                           Sitio Web
                         </h3>
                       </div>
+
+                      <!-- Formulario -->
                       <div class="card-body text-lg-start text-center pt-0">
                         <div class="card-body p-3">
                           <div class="timeline timeline-one-side" data-timeline-axis-style="dotted">
+                            <!-- Section start-->
                             <div class="timeline-block mb-3">
                               <span class="timeline-step bg-dark p-3">
                                 <i class="material-icons text-white text-sm opacity-10">
@@ -57,6 +61,7 @@ include_once('../templates/header.php');
                               </span>
                               <div class="timeline-content pt-1">
                                 <h6 class="text-dark text-sm font-weight-bold mb-0">Tipo</h6>
+
                                 <div class="d-flex flex-column">
                                   <div class="d-flex align-items-center mt-2">
                                     <div class="form-check is-filled">
@@ -71,8 +76,11 @@ include_once('../templates/header.php');
                                     <h6 class="mb-0 text-dark text-sm mx-1">Landing Page</h6>
                                   </div>
                                 </div>
+
                               </div>
                             </div>
+
+                            <!-- Section  content-->
                             <div class="timeline-block mb-3">
                               <span class="timeline-step bg-primary p-3">
                                 <i class="material-icons text-white text-sm opacity-10">
@@ -81,116 +89,56 @@ include_once('../templates/header.php');
                               </span>
                               <div class="timeline-content pt-1">
                                 <h6 class="text-dark text-sm font-weight-bold mb-0">Formato</h6>
-                                
+                                <div class="d-flex flex-column">
+                                  <div class="d-flex align-items-center mt-2">
+                                    <div class="form-check is-filled">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    </div>
+                                    <h6 class="mb-0 text-dark text-sm mx-1">Codigo</h6>
+                                  </div>
+                                  <div class="d-flex align-items-center mt-2">
+                                    <div class="form-check is-filled">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    </div>
+                                    <h6 class="mb-0 text-dark text-sm mx-1">Wordpress</h6>
+                                  </div>
+                                </div>
                               </div>
                             </div>
-                            <div class="timeline-block mb-3">
-                              <span class="timeline-step bg-success p-3">
-                                <i class="material-icons text-white text-sm opacity-10">
-                                  shopping_cart
-                                </i>
-                              </span>
-                              <div class="timeline-content pt-1">
-                                <h6 class="text-dark text-sm font-weight-bold mb-0">Server payments for April</h6>
-                                <p class="text-secondary text-xs mt-1 mb-0">21 DEC 9:34 PM</p>
-                                <p class="text-sm text-dark mt-3 mb-2">
-                                  People care about how you see the world, how you think, what motivates you, what you’re struggling with or afraid of.
-                                </p>
-                              </div>
-                            </div>
-                            <div class="timeline-block mb-3">
-                              <span class="timeline-step bg-info p-3">
+
+                            <!-- Section  content-->
+                            <div class="timeline-block">
+                              <span class="timeline-step bg-dark p-3">
                                 <i class="material-icons text-white text-sm opacity-10">
                                   credit_card
                                 </i>
                               </span>
                               <div class="timeline-content pt-1">
-                                <h6 class="text-dark text-sm font-weight-bold mb-0">New card added for order #4395133</h6>
-                                <p class="text-secondary text-xs mt-1 mb-0">20 DEC 2:20 AM</p>
-                                <p class="text-sm text-dark mt-3 mb-2">
-                                  People care about how you see the world, how you think, what motivates you, what you’re struggling with or afraid of.
-                                </p>
+                                <h6 class="text-dark text-sm font-weight-bold mb-0">Descripción</h6>
+                                <div class="d-flex flex-column">
+                                  <div class="d-flex align-items-center mt-2">
+                                    <div class="input-group input-group-dynamic">
+                                      <textarea class="form-control" rows="5" placeholder="Dejanos una breve descripción de tu proyecto:" spellcheck="false"></textarea>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
-                            <div class="timeline-block mb-3">
-                              <span class="timeline-step bg-dark p-3">
-                                <i class="material-icons text-white text-sm opacity-10">
-                                  vpn_key
-                                </i>
-                              </span>
-                              <div class="timeline-content pt-1">
-                                <h6 class="text-dark text-sm font-weight-bold mb-0">Unlock packages for development</h6>
-                                <p class="text-secondary text-xs mt-1 mb-0">18 DEC 4:54 AM</p>
-                                <p class="text-sm text-dark mt-3 mb-2">
-                                  People care about how you see the world, how you think, what motivates you, what you’re struggling with or afraid of.
-                                </p>
-                              </div>
-                            </div>
-                            <div class="timeline-block mb-3">
-                              <span class="timeline-step bg-primary p-3">
-                                <i class="material-icons text-white text-sm opacity-10">
-                                  inventory_2
-                                </i>
-                              </span>
-                              <div class="timeline-content pt-1">
-                                <h6 class="text-dark text-sm font-weight-bold mb-0">New message unread</h6>
-                                <p class="text-secondary text-xs mt-1 mb-0">16 DEC</p>
-                                <p class="text-sm text-dark mt-3 mb-2">
-                                  People care about how you see the world, how you think, what motivates you, what you’re struggling with or afraid of.
-                                </p>
-                              </div>
-                            </div>
-                            <div class="timeline-block mb-3">
-                              <span class="timeline-step bg-success p-3">
-                                <i class="material-icons text-white text-sm opacity-10">
-                                  done
-                                </i>
-                              </span>
-                              <div class="timeline-content pt-1">
-                                <h6 class="text-dark text-sm font-weight-bold mb-0">Notifications unread</h6>
-                                <p class="text-secondary text-xs mt-1 mb-0">15 DEC</p>
-                                <p class="text-sm text-dark mt-3 mb-2">
-                                  People care about how you see the world, how you think, what motivates you, what you’re struggling with or afraid of.
-                                </p>
-                              </div>
-                            </div>
-                            <div class="timeline-block mb-3">
-                              <span class="timeline-step bg-info p-3">
-                                <i class="material-icons text-white text-sm opacity-10">
-                                  mail
-                                </i>
-                              </span>
-                              <div class="timeline-content pt-1">
-                                <h6 class="text-dark text-sm font-weight-bold mb-0">New request</h6>
-                                <p class="text-secondary text-xs mt-1 mb-0">14 DEC</p>
-                                <p class="text-sm text-dark mt-3 mb-2">
-                                  People care about how you see the world, how you think, what motivates you, what you’re struggling with or afraid of.
-                                </p>
-                              </div>
-                            </div>
-                            <div class="timeline-block">
-                              <span class="timeline-step bg-dark p-3">
-                                <i class="material-icons text-white text-sm opacity-10">
-                                  sports_esports
-                                </i>
-                              </span>
-                              <div class="timeline-content pt-1">
-                                <h6 class="text-dark text-sm font-weight-bold mb-0">Controller issues</h6>
-                                <p class="text-secondary text-xs mt-1 mb-0">13 DEC</p>
-                                <p class="text-sm text-dark mt-3 mb-2">
-                                  People care about how you see the world, how you think, what motivates you, what you’re struggling with or afraid of.
-                                </p>
-                              </div>
+
+                            <div class="d-flex justify-content-lg-start justify-content-center p-2">
+                              <p class="ps-3 text-center">Diseño incluido</p>
                             </div>
                           </div>
                         </div>
                         <a href="javascript:;" class="btn btn-icon bg-gradient-dark d-lg-block mt-3 mb-0">
-                          Join
+                          Enviar
                           <i class="fas fa-arrow-right ms-1" aria-hidden="true"></i>
                         </a>
                       </div>
+
                     </div>
                   </div>
+                  <!-- Card - Movil -->
                   <div class="col-lg-4 mb-lg-0 mb-4">
                     <div class="card bg-gradient-dark shadow-lg">
                       <span class="badge rounded-pill bg-primary w-30 mt-n2 mx-auto">Movil</span>
@@ -199,38 +147,77 @@ include_once('../templates/header.php');
                           Movil
                         </h3>
                       </div>
+
+                      <!-- Formulario -->
                       <div class="card-body text-lg-start text-center pt-0">
-                        <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                          <i class="material-icons my-auto text-white">done</i>
-                          <span class="ps-3 text-white">10 team members</span>
+                        <div class="card-body p-3">
+                          <div class="timeline timeline-one-side" data-timeline-axis-style="dotted">
+
+                            <!-- Section  content-->
+                            <div class="timeline-block mb-3">
+                              <span class="timeline-step bg-primary p-3">
+                                <i class="material-icons text-white text-sm opacity-10">
+                                  code
+                                </i>
+                              </span>
+                              <div class="timeline-content pt-1">
+                                <h6 class="text-dark text-sm font-weight-bold mb-0 text-white">Formato</h6>
+                                <div class="d-flex flex-column">
+                                  <div class="d-flex align-items-center mt-2">
+                                    <div class="form-check is-filled">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    </div>
+                                    <h6 class="mb-0 text-dark text-sm mx-1 text-white">IOS</h6>
+                                  </div>
+                                  <div class="d-flex align-items-center mt-2">
+                                    <div class="form-check is-filled">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    </div>
+                                    <h6 class="mb-0 text-dark text-sm mx-1 text-white">Android</h6>
+                                  </div>
+                                  <div class="d-flex align-items-center mt-2">
+                                    <div class="form-check is-filled">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    </div>
+                                    <h6 class="mb-0 text-dark text-sm mx-1 text-white">Multiplataforma</h6>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Section  content-->
+                            <div class="timeline-block">
+                              <span class="timeline-step bg-dark p-3">
+                                <i class="material-icons text-white text-sm opacity-10">
+                                  credit_card
+                                </i>
+                              </span>
+                              <div class="timeline-content pt-1">
+                                <h6 class="text-dark text-sm font-weight-bold mb-0 text-white">Descripción</h6>
+                                <div class="d-flex flex-column">
+                                  <div class="d-flex align-items-center mt-2">
+                                    <div class="input-group input-group-dynamic">
+                                      <textarea class="form-control" rows="5" placeholder="Dejanos una breve descripción de tu proyecto:" spellcheck="false"></textarea>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="d-flex justify-content-lg-start justify-content-center p-2">
+                              <p class="ps-3 text-center text-white">Diseño incluido</p>
+                            </div>
+                          </div>
                         </div>
-                        <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                          <i class="material-icons my-auto text-white">done</i>
-                          <span class="ps-3 text-white">40GB Cloud storage </span>
-                        </div>
-                        <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                          <i class="material-icons my-auto text-white">done</i>
-                          <span class="ps-3 text-white">Integration help </span>
-                        </div>
-                        <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                          <i class="material-icons my-auto text-white">done</i>
-                          <span class="ps-3 text-white">Sketch Files </span>
-                        </div>
-                        <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                          <i class="material-icons my-auto text-white">remove</i>
-                          <span class="ps-3 text-white">API Access </span>
-                        </div>
-                        <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                          <i class="material-icons my-auto text-white">remove</i>
-                          <span class="ps-3 text-white">Complete documentation </span>
-                        </div>
-                        <a href="javascript:;" class="btn btn-icon bg-gradient-primary d-lg-block mt-3 mb-0">
-                          Try Premium
+                        <a href="javascript:;" class="btn btn-icon bg-gradient-dark d-lg-block mt-3 mb-0">
+                          Enviar
                           <i class="fas fa-arrow-right ms-1" aria-hidden="true"></i>
                         </a>
                       </div>
+
                     </div>
                   </div>
+                  <!-- Card Software -->
                   <div class="col-lg-4 mb-lg-0 mb-4">
                     <div class="card shadow-lg">
                       <span class="badge rounded-pill bg-light text-dark w-30 mt-n2 mx-auto fs-6">Software</span>
@@ -239,33 +226,69 @@ include_once('../templates/header.php');
                           Software
                         </h3>
                       </div>
+                      <!-- Formulario -->
                       <div class="card-body text-lg-start text-center pt-0">
-                        <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                          <i class="material-icons my-auto">done</i>
-                          <span class="ps-3">Unlimited team members</span>
-                        </div>
-                        <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                          <i class="material-icons my-auto">done</i>
-                          <span class="ps-3">100GB Cloud storage </span>
-                        </div>
-                        <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                          <i class="material-icons my-auto">done</i>
-                          <span class="ps-3">Integration help </span>
-                        </div>
-                        <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                          <i class="material-icons my-auto">done</i>
-                          <span class="ps-3">Sketch Files </span>
-                        </div>
-                        <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                          <i class="material-icons my-auto">done</i>
-                          <span class="ps-3">API Access </span>
-                        </div>
-                        <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                          <i class="material-icons my-auto">done</i>
-                          <span class="ps-3">Complete documentation </span>
+                        <div class="card-body p-3">
+                          <div class="timeline timeline-one-side" data-timeline-axis-style="dotted">
+
+                            <!-- Section  content-->
+                            <div class="timeline-block mb-3">
+                              <span class="timeline-step bg-primary p-3">
+                                <i class="material-icons text-white text-sm opacity-10">
+                                  code
+                                </i>
+                              </span>
+                              <div class="timeline-content pt-1">
+                                <h6 class="text-dark text-sm font-weight-bold mb-0">Formato</h6>
+                                <div class="d-flex flex-column">
+                                  <div class="d-flex align-items-center mt-2">
+                                    <div class="form-check is-filled">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    </div>
+                                    <h6 class="mb-0 text-dark text-sm mx-1">CRM</h6>
+                                  </div>
+                                  <div class="d-flex align-items-center mt-2">
+                                    <div class="form-check is-filled">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    </div>
+                                    <h6 class="mb-0 text-dark text-sm mx-1">ERP</h6>
+                                  </div>
+                                  <div class="d-flex align-items-center mt-2">
+                                    <div class="form-check is-filled">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    </div>
+                                    <h6 class="mb-0 text-dark text-sm mx-1">Personalizado</h6>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Section  content-->
+                            <div class="timeline-block">
+                              <span class="timeline-step bg-dark p-3">
+                                <i class="material-icons text-white text-sm opacity-10">
+                                  credit_card
+                                </i>
+                              </span>
+                              <div class="timeline-content pt-1">
+                                <h6 class="text-dark text-sm font-weight-bold mb-0">Descripción</h6>
+                                <div class="d-flex flex-column">
+                                  <div class="d-flex align-items-center mt-2">
+                                    <div class="input-group input-group-dynamic">
+                                      <textarea class="form-control" rows="5" placeholder="Dejanos una breve descripción de tu proyecto:" spellcheck="false"></textarea>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="d-flex justify-content-lg-start justify-content-center p-2">
+                              <p class="ps-3 text-center text-white">Diseño incluido</p>
+                            </div>
+                          </div>
                         </div>
                         <a href="javascript:;" class="btn btn-icon bg-gradient-dark d-lg-block mt-3 mb-0">
-                          Join
+                          Enviar
                           <i class="fas fa-arrow-right ms-1" aria-hidden="true"></i>
                         </a>
                       </div>
