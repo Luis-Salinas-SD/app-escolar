@@ -529,29 +529,9 @@ include_once('../templates/header.php');
         </div>
       </div>
 
-      <footer class="footer py-5">
+      <footer class="footer py-3">
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 mb-4 mx-auto text-center">
-              <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                Company
-              </a>
-              <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                About Us
-              </a>
-              <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                Team
-              </a>
-              <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                Products
-              </a>
-              <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                Blog
-              </a>
-              <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                Pricing
-              </a>
-            </div>
             <div class="col-lg-8 mx-auto text-center mb-4 mt-2">
               <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
                 <span class="text-lg fab fa-dribbble" aria-hidden="true"></span>
@@ -570,19 +550,10 @@ include_once('../templates/header.php');
               </a>
             </div>
           </div>
-          <div class="row">
-            <div class="col-8 mx-auto text-center mt-1">
-              <p class="mb-0 text-secondary">
-                Copyright © <script>
-                  document.write(new Date().getFullYear())
-                </script>2023 Material by Creative Tim.
-              </p>
-            </div>
-          </div>
         </div>
       </footer>
 
-      <div class="fixed-plugin">
+    <!--   <div class="fixed-plugin">
         <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
           <i class="material-icons py-2">settings</i>
         </a>
@@ -663,12 +634,9 @@ include_once('../templates/header.php');
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
 
-      <!-- Footer -->
-      <?php include_once('../templates/footer.php') ?>
-      <!-- Footer -->
 
     </div>
 
