@@ -36,15 +36,16 @@ include_once('../templates/header.php');
             </div>
             <div class="tab-content tab-space">
               <div class="tab-pane active" id="monthly" role="tabpanel" aria-labelledby="#tabs-iconpricing-tab-1">
-
+                <!-- Cards -->
                 <div class="row">
                   <!-- Card Web -->
                   <div class="col-lg-4 mb-lg-0 mb-4">
                     <div class="card shadow-lg">
                       <span class="badge rounded-pill bg-light text-dark w-30 mt-n2 mx-auto">Sitio Web</span>
                       <div class="card-header text-center pt-4 pb-3">
+                        <i class="fa-solid fa-globe fs-1 text-dark"></i>
                         <h3 class="font-weight-bold mt-2">
-                          Sitio Web
+                          Crea tú sitio web
                         </h3>
                       </div>
 
@@ -118,16 +119,13 @@ include_once('../templates/header.php');
                                 <div class="d-flex flex-column">
                                   <div class="d-flex align-items-center mt-2">
                                     <div class="input-group input-group-dynamic">
-                                      <textarea class="form-control" rows="5" placeholder="Dejanos una breve descripción de tu proyecto:" spellcheck="false"></textarea>
+                                      <textarea class="form-control" rows="2" placeholder="Dejanos una breve descripción de tu proyecto:" spellcheck="false"></textarea>
                                     </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
 
-                            <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                              <p class="ps-3 text-center">Diseño incluido</p>
-                            </div>
                           </div>
                         </div>
                         <a href="javascript:;" class="btn btn-icon bg-gradient-dark d-lg-block mt-3 mb-0">
@@ -143,8 +141,9 @@ include_once('../templates/header.php');
                     <div class="card bg-gradient-dark shadow-lg">
                       <span class="badge rounded-pill bg-primary w-30 mt-n2 mx-auto">Movil</span>
                       <div class="card-header text-center pt-4 pb-3 bg-transparent">
+                        <i class="fa-solid fa-mobile-screen fs-1 text-primary"></i>
                         <h3 class="font-weight-bold mt-2 text-white">
-                          Movil
+                          Crea tú app Movil
                         </h3>
                       </div>
 
@@ -197,19 +196,16 @@ include_once('../templates/header.php');
                                 <div class="d-flex flex-column">
                                   <div class="d-flex align-items-center mt-2">
                                     <div class="input-group input-group-dynamic">
-                                      <textarea class="form-control" rows="5" placeholder="Dejanos una breve descripción de tu proyecto:" spellcheck="false"></textarea>
+                                      <textarea class="form-control text-white" rows="5" placeholder="Dejanos una breve descripción de tu proyecto:" spellcheck="false"></textarea>
                                     </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
 
-                            <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                              <p class="ps-3 text-center text-white">Diseño incluido</p>
-                            </div>
                           </div>
                         </div>
-                        <a href="javascript:;" class="btn btn-icon bg-gradient-dark d-lg-block mt-3 mb-0">
+                        <a href="javascript:;" class="btn btn-icon bg-primary d-lg-block mt-3 mb-0 text-white">
                           Enviar
                           <i class="fas fa-arrow-right ms-1" aria-hidden="true"></i>
                         </a>
@@ -220,8 +216,9 @@ include_once('../templates/header.php');
                   <!-- Card Software -->
                   <div class="col-lg-4 mb-lg-0 mb-4">
                     <div class="card shadow-lg">
-                      <span class="badge rounded-pill bg-light text-dark w-30 mt-n2 mx-auto fs-6">Software</span>
+                      <span class="badge rounded-pill bg-light text-dark w-30 mt-n2 mx-auto">Software</span>
                       <div class="card-header text-center pt-4 pb-3">
+                        <i class="fa-solid fa-microchip fs-1 text-dark"></i>
                         <h3 class="font-weight-bold mt-2">
                           Software
                         </h3>
@@ -282,9 +279,6 @@ include_once('../templates/header.php');
                               </div>
                             </div>
 
-                            <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                              <p class="ps-3 text-center text-white">Diseño incluido</p>
-                            </div>
                           </div>
                         </div>
                         <a href="javascript:;" class="btn btn-icon bg-gradient-dark d-lg-block mt-3 mb-0">
@@ -421,6 +415,7 @@ include_once('../templates/header.php');
                 </div>
               </div>
             </div>
+
           </div>
 
           <!-- Nuestros Clientes -->
@@ -534,19 +529,16 @@ include_once('../templates/header.php');
           <div class="row">
             <div class="col-lg-8 mx-auto text-center mb-4 mt-2">
               <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
-                <span class="text-lg fab fa-dribbble" aria-hidden="true"></span>
+                <i class="fa-brands fa-facebook"></i>
               </a>
               <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
-                <span class="text-lg fab fa-twitter" aria-hidden="true"></span>
+                <i class="fa-brands fa-twitter"></i>
               </a>
               <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
-                <span class="text-lg fab fa-instagram" aria-hidden="true"></span>
+                <i class="fa-brands fa-whatsapp"></i>
               </a>
               <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
-                <span class="text-lg fab fa-pinterest" aria-hidden="true"></span>
-              </a>
-              <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
-                <span class="text-lg fab fa-github" aria-hidden="true"></span>
+                <i class="fa-brands fa-instagram"></i>
               </a>
             </div>
           </div>
