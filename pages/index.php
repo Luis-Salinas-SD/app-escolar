@@ -11,7 +11,7 @@ include_once('../templates/header.php');
 
     <div class="container-fluid py-4">
       <!-- Banner -->
-      <div class="page-header bg-gradient-dark position-relative m-3 border-radius-xl min-vh-50" style="background-image: url('../assets/img/softw-banner.jpg'); background-position: center;">
+      <div class="page-header bg-gradient-dark position-relative m-3 border-radius-xl min-vh-50" style="background-image: url('https://softwareincorp.com/src/hermosa-foto-montana-nevada-al-atardecer.jpg'); background-position: center;">
         <span class="mask bg-gradient-dark opacity-2"></span>
         <div class="container py-10 postion-relative z-index-2">
           <div class="row">
